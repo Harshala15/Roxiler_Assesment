@@ -158,12 +158,12 @@ This project follows a **three-tier architecture**:
 
 ### 1️⃣ Clone Repository
 ```bash
-git clone https://github.com/Harshala15/Rating-app.git
-cd Roxiler-systems-coding-round
+git clone https://github.com/Harshala15/Roxiler_Assesment.git
 ```
 
 ### 2️⃣ Backend Setup
 ```bash
+cd Roxiler_Assesment
 cd backend
 npm install
 ```
@@ -186,6 +186,7 @@ npm install
 
 ### 3️⃣ Frontend Setup
 ```bash
+cd Roxiler_Assesment
 cd frontend
 npm install
 npm run dev
