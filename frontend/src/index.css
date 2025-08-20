@@ -1,0 +1,66 @@
+@import "tailwindcss";
+
+
+@layer base {
+  html, body {
+    height: 100%;
+  }
+  
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+.btn-primary {
+  background-color: #2563eb; 
+  color: white;             
+  font-weight: bold;         
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;    
+}
+
+.btn-primary:hover {
+  background-color: #1d4ed8; 
+}
+
+.btn-secondary {
+  background-color: #4b5563;
+  color: white;              
+  font-weight: bold;         
+  padding: 0.5rem 1rem;    
+  border-radius: 0.25rem;   
+}
+
+.btn-secondary:hover {
+  background-color: #374151;
+}
+
+.form-input {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); 
+  appearance: none;                        
+  border: 1px solid #d1d5db;               
+  border-radius: 0.25rem;                
+  width: 100%;                              
+  padding: 0.5rem 0.75rem;             
+  color: #374151;                       
+  line-height: 1.5;                         
+  outline: none;                            
+}
+
+.form-input:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.5); 
+}
+
+
+.form-label {
+  display: block;            
+  color: #374151;            
+  font-size: 0.875rem;       
+  font-weight: bold;         
+  margin-bottom: 0.5rem;    
+}
